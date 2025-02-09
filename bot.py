@@ -8,7 +8,7 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7679172022:AAHf-E8fUcQVQc6pOwg-HWKwPOuJJE6MnKw")
 
 # Функция для команды /start
 async def start(update: Update, context: CallbackContext) -> None:
